@@ -1,0 +1,12 @@
+---
+- name: playbook
+  hosts: localhost
+  vars:
+      user_name: first class
+  tasks:
+
+    - debug:
+        msg:  "{{ user_name }} "
+
+
+...
